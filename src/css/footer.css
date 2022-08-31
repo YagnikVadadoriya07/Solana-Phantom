@@ -1,0 +1,37 @@
+.section.footer {
+  position: relative;
+  background-color: #000;
+}
+.content.footer {
+  max-width: 1600%;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  line-height: 1.4;
+}
+.content {
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: start;
+
+  justify-content: flex-start;
+  text-align: center;
+}
+.footer-plant {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 3%;
+  bottom: 0%;
+  width: 300px;
+}
+.footer-text {
+  color: silver;
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 20px;
+}

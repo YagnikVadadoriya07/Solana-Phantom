@@ -1,0 +1,33 @@
+/* nav {
+  background: radial-gradient(
+    82.99% 82.99% at 18.35% 33.69%,
+    rgba(0, 118, 255, 0.81) 0%,
+    rgba(15, 15, 77, 0) 64.9%,
+    rgba(15, 15, 77, 0) 100%
+  );
+} */
+@font-face {
+  font-family: "work-bold";
+  src: url("../Work_Sans/static/WorkSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "work";
+  src: url("../Work_Sans/static/WorkSans-Regular.ttf") format("truetype");
+}
+.fontSetLeave {
+  font-family: "work-bold";
+}
+.fontSetText {
+  font-family: "work";
+  font-weight: 400;
+}
+/* body {
+  background: radial-gradient(
+    82.99% 82.99% at 18.35% 33.69%,
+    rgba(0, 118, 255, 0.81) 0%,
+    rgba(15, 15, 77, 0) 64.9%,
+    rgba(15, 15, 77, 0) 100%
+  );
+  background-color: #0f0f4d;
+  font-family: "work";
+} */

@@ -1,0 +1,260 @@
+@font-face {
+  font-family: "work";
+  src: url("../Work_Sans/static/WorkSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "work-bold";
+  src: url("../Work_Sans/static/WorkSans-Bold.ttf") format("truetype");
+}
+.fontRegular{
+  font-family: "work";
+  font-weight: 500;
+}
+.fontRegular1{
+  font-family: "work";
+  font-weight: 700;
+}
+.content {
+  max-width: 1600px;
+}
+.buttonBorder {
+  border: 3px solid transparent;
+  border-radius: 10px;
+  width: 215px;
+  height: 55px;
+  text-align: center;
+  background-image: linear-gradient(#1b45a0, #1b45a0),
+    linear-gradient(143deg, #0076ff, #ffb23c);
+  color: #fff;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.borderbg {
+  border: 3px solid transparent;
+  border-radius: 10px;
+  width: 140px;
+  height: 45px;
+  text-align: center;
+  background-image: linear-gradient(#0f0f4d, #0f0f4d),
+    linear-gradient(143deg, #0076ff, #ffb23c);
+  color: #fff;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.benefit {
+  margin: 10px;
+  padding: 10px 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsla(0, 0%, 100%, 0.15);
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 100%, 0.05);
+  background-image: radial-gradient(
+    circle closest-corner at 60% 270%,
+    rgba(0, 118, 255, 0.5),
+    hsla(0, 0%, 100%, 0)
+  );
+  font-weight: 600;
+}
+.benefitBorder {
+  margin: 10px;
+  padding: 10px 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsla(0, 0%, 100%, 0.15);
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 100%, 0.05);
+  background-image: radial-gradient(
+    circle closest-corner at 50% 190%,
+    rgba(255, 178, 60, 0.5),
+    rgba(255, 178, 60, 0) 96%
+  );
+  font-weight: 600;
+}
+.textColor {
+  color: hsla(0, 0%, 100%, 0.5);
+}
+.colornewSection {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.profileBorder {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+}
+.partners-logos {
+  display: flex;
+  width: auto;
+  margin-top: 25px;
+  margin-bottom: 45px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.partner-logo {
+  display: flex;
+  height: 100px;
+  margin: 10px;
+  padding: 25px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.partner-logo.kongs {
+  padding: 10px;
+}
+.imglogos {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.button.affiliate {
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 2px;
+  background-image: linear-gradient(52deg, #0076ff, #ffb23c);
+  color: #fff;
+}
+.button {
+  display: flex;
+  border-radius: 10px;
+  background-color: #ffb23c;
+  font-weight: 700;
+  text-decoration: none;
+}
+.button-text.small {
+  padding: 10px 12px;
+  border-radius: 8px;
+  background-color: #0f0f4d;
+  transition: all 200ms ease;
+  font-weight: 600;
+}
+.button-text {
+  line-height: 1.2;
+}
+.button.community {
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 2px;
+  background-image: linear-gradient(143deg, #0076ff, #ffb23c);
+  transition: all 200ms ease;
+  color: #fff;
+}
+
+/* secton fort-gottan */
+.section {
+  display: flex;
+  padding-right: 25px;
+  padding-left: 25px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.section.fort-gotten {
+  position: relative;
+  background-color: #000;
+  /* background-image: -webkit-gradient(linear, left top, left bottom, from(#050520), to(transparent)), url(https://assets.website-files.com/61ca490…/625b0ab…_centro-night-bg-web.jpg); */
+  background-image: linear-gradient(180deg, #050520, transparent),
+    url(/public/images/backplants.jpg);
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, auto;
+}
+.fort-gotten-kidz {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  align-items: flex-end;
+}
+.fg-kid.center {
+  width: 550px;
+  margin-right: -200px;
+  margin-left: -200px;
+}
+.fg-kid {
+  width: 500px;
+}
+/* animation h1 */
+
+.waviy {
+  position: relative;
+  font-family: "work";
+  font-weight: 600;
+  font-size: 80px;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  animation: waviy 1s ease-in-out;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes waviy {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+}
+.announcement_bar {
+  position: fixed;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  z-index: 100;
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #ffb23c;
+  color: #0f0f4d;
+  font-size: 18px;
+  font-weight: 500;
+}

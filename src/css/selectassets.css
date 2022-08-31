@@ -1,0 +1,247 @@
+@font-face {
+  font-family: "work";
+  src: url("../Work_Sans/static/WorkSans-Regular.ttf") format("truetype");
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+#policyid_popup{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.nftverified,#varified_status_popup{
+  color: #0055ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.nftverified svg,#varified_status_popup svg{
+  display: initial;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 80px;
+  height: 30px;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.noassests{
+  width: fit-content;
+  margin: auto;
+  font-weight: bold;
+}
+
+.ada_card img {
+  height: 60%;
+  width: 100%;
+}
+
+.nftselect {
+  display: flex;
+  justify-content: center;
+}
+
+.oppnftselect {
+  margin-left: 132px;
+  display: flex;
+}
+
+.SignME {
+  background-color: blue;
+  color: #fff;
+}
+.setHight {
+  height: 40rem;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 5px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+form {
+  border: 1px solid #828282;
+  width: 400px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -100px;
+}
+input {
+  background: inherit;
+  font: 18px;
+  color: #828282;
+  height: 100%;
+  width: 100%;
+  padding: 10px 20px 10px;
+}
+.svg {
+  color: #828282;
+  fill: currentColor;
+  width: 30px;
+  height: 18px;
+  right: 0%;
+}
+.svgButton {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+.buttonSelectCase {
+  position: relative;
+}
+.buttonSelectCase:hover #select_nft_btn {
+  opacity: 1;
+}
+.buttonSelectCase:hover #show_nft_button {
+  opacity: 1;
+}
+
+#select_nft_btn {
+  background-color: white;
+  border-radius: 15px;
+  width: 150px;
+  padding: 5px 5px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 5px;
+  font-size: 24px;
+  opacity: 0;
+  font-family: "work";
+}
+#show_nft_button {
+  background-color: white;
+  border-radius: 15px;
+  width: 150px;
+  padding: 5px 5px;
+  margin-left: 20px;
+  position: absolute;
+  top: 95px;
+  font-size: 24px;
+  opacity: 0;
+  font-family: "work";
+}
+
+.footer_child {
+  width: 50%;
+
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ada_card {
+  border-radius: 5px;
+  height: 80%;
+  width: 150px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.ada_image {
+  height: 60%;
+  width: 60%;
+}
+
+.ada_image_tag {
+  height: 100%;
+  width: 100%;
+}
+/* new */
+.dark .dark\:text-yellow {
+  --tw-text-opacity: 1;
+  color: rgba(255, 178, 60, var(--tw-text-opacity));
+}
+
+/* new Css  */
+.trade-nfts[data-v-77d1d4d5] {
+  margin-right: 132px;
+  min-height: 140px;
+}
+.trade-nfts > div > div[data-v-77d1d4d5] {
+  height: 157px;
+}
+.object-center {
+  object-position: center;
+}
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.text-red {
+  --tw-text-opacity: 1;
+  color: rgba(235, 87, 87, var(--tw-text-opacity));
+}
+.bg-red {
+  --tw-text-opacity: 0.4;
+  background-color: rgba(235, 87, 87, var(--tw-text-opacity));
+}
+.bg-green {
+  --tw-text-opacity: 0.5;
+  background-color: rgba(152, 251, 152, var(--tw-text-opacity));
+}
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.text-blue-dark {
+  --tw-text-opacity: 1;
+  color: rgba(15, 15, 77, var(--tw-text-opacity));
+}

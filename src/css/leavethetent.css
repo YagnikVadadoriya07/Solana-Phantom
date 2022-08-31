@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "work-bold";
+  src: url("../Work_Sans/static/WorkSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "work";
+  src: url("../Work_Sans/static/WorkSans-Regular.ttf") format("truetype");
+}
+.fontSetLeave {
+  font-family: "work-bold";
+}
+.fontSetText {
+  font-family: "work";
+  font-weight: 400;
+}
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+.dark .dark\:text-blue-light {
+  --tw-text-opacity: 1;
+  color: rgba(0, 118, 255, var(--tw-text-opacity));
+}
+.dark .dark\:text-gray-light {
+  --tw-text-opacity: 1;
+  color: rgba(224, 224, 224, var(--tw-text-opacity));
+}
+.dark .dark\:bg-blue-darker {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 26, 75, var(--tw-bg-opacity));
+}
+.text-gray-dark {
+  --tw-text-opacity: 1;
+  color: rgba(130, 130, 130, var(--tw-text-opacity));
+}
+.text-blue-dark {
+  --tw-text-opacity: 1;
+  color: rgba(15, 15, 77, var(--tw-text-opacity));
+}
+.dark .dark\:text-gray-regular {
+  --tw-text-opacity: 1;
+  color: rgba(189, 189, 189, var(--tw-text-opacity));
+}
+.dark .dark\:bg-blue-darkest {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 13, 37, var(--tw-bg-opacity));
+}

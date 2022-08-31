@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+  font-family: "work";
+}
+.dark {
+  background-color: #000713;
+}
+.dark .dark\:bg-blue-darkest {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 13, 37, var(--tw-bg-opacity));
+}
+.hover\:bg-opacity-20:hover {
+  --tw-bg-opacity: 0.2;
+}
+.bg-red-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgba(94, 15, 15, var(--tw-bg-opacity));
+}
+.bg-red {
+  --tw-bg-opacity: 1;
+  background-color: rgba(235, 87, 87, var(--tw-bg-opacity));
+}
+.bg-green {
+  --tw-bg-opacity: 1;
+  background-color: rgba(39, 174, 96, var(--tw-bg-opacity));
+}
+
+.bg-green-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 67, 28, var(--tw-bg-opacity));
+}
+
+.bg-green-light {
+  --tw-bg-opacity: 1;
+  background-color: rgba(111, 207, 151, var(--tw-bg-opacity));
+}
+.text-gray-darker {
+  --tw-text-opacity: 1;
+  color: rgba(79, 79, 79, var(--tw-text-opacity));
+}
+.border-blue-dark {
+  --tw-border-opacity: 1;
+  border-color: rgba(15, 15, 77, var(--tw-border-opacity));
+}
+.dark .dark\:border-gray-lightest {
+  --tw-border-opacity: 1;
+  border-color: rgba(242, 242, 242, var(--tw-border-opacity));
+}
+.bg-gray-50 {
+  --tw-bg-opacity: 0.5;
+  background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
+}
